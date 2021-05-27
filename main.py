@@ -87,7 +87,7 @@ st.title('YouTube分析アプリ')
 
 st.sidebar.write('## クエリと閾値の設定')
 st.sidebar.write('### クエリの入力')
-query = st.sidebar.text_input('検索クエリを入力してください','Python 自動化')
+query = st.sidebar.text_input('検索クエリを入力してください')
 
 st.sidebar.write('### 閾値の設定')
 threshold =st.sidebar.slider('登録者の閾値', 100 ,10000 ,5000)
